@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartlife - Tecnología al servicio de tu vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Smartlife</h1>
+        <h2>La tecnología al servicio de tu vida</h2>
+        <img src="imagen-gente-comprando-computadoras.jpg" alt="Gente satisfecha comprando computadoras">
+    </header>
+
+    <main>
+        <section class="productos">
+            <h2>Productos destacados</h2>
+            <div class="producto">
+                <a href="#">
+                    <img src="producto1.jpg" alt="Producto 1">
+                    <div class="info-producto">
+                        <h3>Samsung Galaxy S24 Ultra</h3>
+                        <p>Precio: B/.1,499.95</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img src="producto2.jpg" alt="Producto 2">
+                    <div class="info-producto">
+                        <h3>Producto 2</h3>
+                        <p>Precio: B/.85.00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img src="producto3.jpg" alt="Producto 3">
+                    <div class="info-producto">
+                        <h3>Producto 3</h3>
+                        <p>Precio: B/.20.00</p>
+                    </div>
+                </a>
+            </div>
+            </section>
+
+        <section class="secciones">
+            <h2>Más información</h2>
+            <ul>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Promociones</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Smartlife. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

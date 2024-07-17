@@ -1,0 +1,28 @@
+body {
+    text-align: left; 
+    position: relative; /* Establece posición relativa para que la posición absoluta sea relativa a este elemento */
+}
+
+nav {
+    position: absolute; /* Establece posición absoluta */
+    top: 0; /* Coloca la barra en la parte superior */
+    right: 0; /* Coloca la barra en la parte derecha */
+    background-color: #f0f0f0; /* Color de fondo de la barra */
+    padding: 10px; /* Espaciado interno de la barra */
+}
+
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0; /* Quita el margen de la lista */
+    padding: 0; /* Quita el relleno de la lista */
+}
+
+nav ul li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    color: #333; /* Color del texto de los enlaces */
+}
